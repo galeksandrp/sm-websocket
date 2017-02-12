@@ -1,4 +1,4 @@
-FROM galeksandrp/sm-ext-socket:docker-3.1.0
+FROM galeksandrp/sm-ext-socket:docker-3.0.1
 WORKDIR /root/css/cstrike/addons/sourcemod/plugins
 RUN wget --content-disposition https://forums.alliedmods.net/attachment.php?attachmentid=110278
 WORKDIR /root/css/cstrike/addons/sourcemod/scripting/include
