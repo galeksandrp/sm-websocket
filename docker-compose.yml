@@ -1,0 +1,12 @@
+version: '2'
+services:
+  sourcetv2d:
+    image: galeksandrp/sm-websocket:docker-sourcetv2d
+    ports:
+    - "27015:27015"
+    - "27015:27015/udp"
+    - "12346:12346"
+  sourcetv2d-nginx:
+    ports:
+    - "8080:80"
+    image: galeksandrp/sm-websocket:docker-sourcetv2d-nginx
