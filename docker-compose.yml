@@ -1,7 +1,7 @@
 version: '2'
 services:
   sourcetv2d:
-    image: galeksandrp/sm-websocket:docker-sourcetv2d
+    image: galeksandrp/sm-websocket:docker-sourcetv2d-user
     ports:
     - "27015:27015"
     - "27015:27015/udp"
